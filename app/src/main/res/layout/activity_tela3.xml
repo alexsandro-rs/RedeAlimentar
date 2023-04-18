@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="10dp"
+    android:background="#FF9800"
+    tools:context=".Tela3Activity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="400dp"
+        android:layout_height="320dp"
+        android:layout_marginBottom="80dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#000000"
+        android:text="Sabemos que a pobreza é a causa dessa fome que ainda persiste. Essa causa pode ser resolvida apenas num trabalho geracional, que congregue educação e geração de oportunidades para os mais pobres, gerando crescimento econômico e a melhor distribuição de renda.\n
+
+        \nMas a fome, de tão inaceitável que é, pode ser enfrentada AGORA, bastando usar o desperdício, como essa alavanca para distribuir comida para o povo.\n
+
+        \nMas como distribuir essa comida de maneira digna? Como enxergar outros ativos que podem ser alavancados no tema? Como, por exemplo, faculdades de gastronomia cujos alunos precisam desses insumos para cozinhar podem ajudar no enfrentamento desse problema?\n
+
+        \nCaso você ou    sua startup seja como a gente e esteja indignado com esse grave problema que insiste em mutilar nossa sociedade, esse desafio é para você. "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="383dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="424dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#000000"
+        android:text="O tema é um desafio que ataca ainda 1 bilhão de pessoas no mundo, que infelizmente, impulsionada pela pandemia e alta da inflação da cesta básica se agravou em nosso país e em nossa cidade: a fome."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="242dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#05355C"
+        android:drawableTint="#2196F3"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#000000"
+        android:shadowColor="#2196F3"
+        android:text="de a sua solução!!"
+        android:textColor="#000000"
+        android:textColorHighlight="#2196F3"
+        android:textColorLink="#2196F3"
+        android:textSize="20sp"
+        app:iconTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2196F3"
+        app:strokeColor="#2196F3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="231dp"
+        android:layout_height="54dp"
+        android:text="            livre Fome"
+        android:textColor="#191818"
+        android:textColorHighlight="#1E1D1D"
+        android:textColorLink="#050404"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
